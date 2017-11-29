@@ -1,0 +1,72 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTM2SKUA", "DTM2SKUA\DTM2SKUA.csproj", "{C9AF4732-96EA-4A15-8C95-E83084E33E0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKUA2DTM", "SKUA2DTM\SKUA2DTM.csproj", "{D6A4B517-242F-4477-92EF-273377A8105A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTMSKUALib", "DTMSKUALib\DTMSKUALib.csproj", "{F63EADB9-8D12-4A79-8531-15B10C488EB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKUA2DXF", "SKUA2DXF\SKUA2DXF.csproj", "{70B0F8A4-9B15-47D1-95C4-9D73C20B20F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9AF4732-96EA-4A15-8C95-E83084E33E0B}.Debug|x86.ActiveCfg = Debug|x86
+		{C9AF4732-96EA-4A15-8C95-E83084E33E0B}.Debug|x86.Build.0 = Debug|x86
+		{C9AF4732-96EA-4A15-8C95-E83084E33E0B}.Release|x86.ActiveCfg = Release|x86
+		{C9AF4732-96EA-4A15-8C95-E83084E33E0B}.Release|x86.Build.0 = Release|x86
+		{D6A4B517-242F-4477-92EF-273377A8105A}.Debug|x86.ActiveCfg = Debug|x86
+		{D6A4B517-242F-4477-92EF-273377A8105A}.Debug|x86.Build.0 = Debug|x86
+		{D6A4B517-242F-4477-92EF-273377A8105A}.Release|x86.ActiveCfg = Release|x86
+		{D6A4B517-242F-4477-92EF-273377A8105A}.Release|x86.Build.0 = Release|x86
+		{F63EADB9-8D12-4A79-8531-15B10C488EB0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F63EADB9-8D12-4A79-8531-15B10C488EB0}.Debug|x86.Build.0 = Debug|Any CPU
+		{F63EADB9-8D12-4A79-8531-15B10C488EB0}.Release|x86.ActiveCfg = Release|Any CPU
+		{F63EADB9-8D12-4A79-8531-15B10C488EB0}.Release|x86.Build.0 = Release|Any CPU
+		{70B0F8A4-9B15-47D1-95C4-9D73C20B20F0}.Debug|x86.ActiveCfg = Debug|x86
+		{70B0F8A4-9B15-47D1-95C4-9D73C20B20F0}.Debug|x86.Build.0 = Debug|x86
+		{70B0F8A4-9B15-47D1-95C4-9D73C20B20F0}.Release|x86.ActiveCfg = Release|x86
+		{70B0F8A4-9B15-47D1-95C4-9D73C20B20F0}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$0.TextStylePolicy = $2
+		$2.scope = text/plain
+		$0.CSharpFormattingPolicy = $3
+		$3.SpaceWithinMethodDeclarationParenthesis = True
+		$3.SpaceWithinMethodCallParentheses = True
+		$3.SpaceWithinExpressionParentheses = True
+		$3.SpaceWithinCastParentheses = True
+		$3.SpaceWithinOtherParentheses = True
+		$3.SpaceAfterCast = True
+		$3.WrappingPreserveSingleLine = False
+		$3.scope = text/x-csharp
+		$3.NewLinesForBracesInProperties = False
+		$3.NewLinesForBracesInAccessors = False
+		$3.NewLinesForBracesInControlBlocks = False
+		$3.NewLineForElse = False
+		$0.StandardHeader = $4
+		$4.Text = @\n ${FileName}\n \n Author:\n      ${AuthorName} <${AuthorEmail}>\n \n Copyright (c) ${Year} ${CopyrightHolder}\n
+		$0.NameConventionPolicy = $5
+		$5.Rules = $6
+		$6.NamingRule = $7
+		$7.Name = Type Parameters
+		$7.AffectedEntity = TypeParameter
+		$7.VisibilityMask = VisibilityMask
+		$7.NamingStyle = PascalCase
+		$7.IncludeInstanceMembers = True
+		$7.IncludeStaticEntities = True
+		$7.RequiredPrefixes = $8
+		$8.String = T
+		$7.RequiredSuffixes = $9
+		$9.String = Exception
+		$0.TextStylePolicy = $10
+		$10.inheritsSet = null
+		$10.scope = text/x-csharp
+	EndGlobalSection
+EndGlobal
